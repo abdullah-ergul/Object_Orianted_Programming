@@ -1,7 +1,7 @@
 package BEng_2_1_NehadTARamaha.week02_Classes_and_Objects;
 
-public class StudentCalculator{
 
+public class StudentCalculator {
     private float mid, fin;
 
     public StudentCalculator(float inMid, float inFin){

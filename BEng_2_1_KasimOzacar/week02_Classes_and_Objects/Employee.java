@@ -1,7 +1,7 @@
 package BEng_2_1_KasimOzacar.week02_Classes_and_Objects;
 import java.util.Scanner;
 
-public class Employee{
+public class Employee {
     Scanner input= new Scanner(System.in);
     String name;
     int socialSecurityNumber, workingHours;

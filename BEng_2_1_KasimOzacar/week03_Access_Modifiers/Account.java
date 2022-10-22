@@ -1,4 +1,5 @@
 package BEng_2_1_KasimOzacar.week03_Access_Modifiers;
+
 import java.util.Objects;
 import java.util.Scanner;
 
@@ -12,6 +13,10 @@ public class Account {
     public Account(String name, double balance){
         this.ownerName= name;
         this.balance= balance;
+    }
+
+    public double getBalance() {
+        return balance;
     }
 
     public void setOwnerName(String name){
