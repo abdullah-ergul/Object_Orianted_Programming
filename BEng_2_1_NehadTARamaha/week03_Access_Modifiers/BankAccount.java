@@ -34,11 +34,12 @@ public class BankAccount {
     public void withdraw(){
         int due= 3;
         double withdrawMoney;
-        System.out.print("Please enter the 4-digit pass: ");
-        String passwordIn= input.next();
-        due--;
+        String passwordIn;
 
         while(due > 0){
+            System.out.print("Please enter the 4-digit pass: ");
+            passwordIn= input.next();
+
             if (Objects.equals(passwordIn, password)) {
                 System.out.print("Enter the amount you want to withdraw: ");
                 withdrawMoney= input.nextDouble();
@@ -46,13 +47,13 @@ public class BankAccount {
                 break;
             }
             else{
+                due--;
+                if(due == 0){
+                    System.out.println("Your account has been blocked, please try again later!");
+                    break;
+                }    
                 System.out.println("Wrong password. You have " + due + " more due!");
-                System.out.print("Please enter the 4-digit pass: ");
-                passwordIn= input.next();
             }
-            due--;
         }
-        if(due == 0)
-            System.out.println("Your account has been blocked, please try again later!");
     }
 }
