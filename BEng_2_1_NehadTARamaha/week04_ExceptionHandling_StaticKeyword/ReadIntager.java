@@ -18,11 +18,27 @@ public class ReadIntager {
             number= num;
         }
         catch(Exception ex){
-            System.out.println("Your input value isn't an intager number!\n(" + ex + ")");
+            System.out.println("Your input value isn't an intager number!(" + ex + ")");
         }
     }
 
     public int getNumber(){
         return number;
     }
+
+    // ! MAIN SECTION
+    public static void main(String[] args){
+        ReadIntager example= new ReadIntager();
+        System.out.println(example.getNumber());
+
+        // try{
+        //     ReadIntager example= new ReadIntager(number);
+        //     System.out.println(example.getNumber());
+        // }
+        // catch(InputMismatchException ex){
+        //     System.out.println(ex);
+        // }
+    }
+    // ! MAIN SECTION
+
 }

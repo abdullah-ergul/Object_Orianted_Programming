@@ -56,4 +56,14 @@ public class Account {
             }
         }
     }
+
+    // ! MAIN SECTION
+    public static void main(String[] args){
+        Account example = new Account("Abdullah", 10893);
+
+        example.withdraw();
+        System.out.println(example.getBalance());
+    }
+    // ! MAIN SECTION
+
 }

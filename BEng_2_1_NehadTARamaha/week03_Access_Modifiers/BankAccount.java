@@ -56,4 +56,14 @@ public class BankAccount {
             }
         }
     }
+
+    // ! MAIN SECTION
+    public static void main(String[] args){
+        BankAccount example = new BankAccount(5960, "Abdullah");
+
+        example.withdraw();
+        System.out.println(example.getBalance());
+    }
+    // ! MAIN SECTION
+
 }

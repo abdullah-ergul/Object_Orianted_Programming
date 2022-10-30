@@ -23,4 +23,13 @@ public class Worker {
     public void displaySalary(){
         System.out.println("Salary= " + wage*workingHours);
     }
+
+    // ! MAIN SECTION
+    public static void main(String[] args){
+        Worker example= new Worker();
+        example.displayInfo();
+        example.displaySalary();
+    }
+    // ! MAIN SECTION
+
 }

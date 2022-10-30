@@ -37,4 +37,20 @@ public class Time1 {
     public String toUniversalString(){
         return (hour + " : " + minute + " : " + second);
     }
+
+    // ! MAIN SECTION
+    public static void main(String[] args){
+        Time1 ex1= new Time1(18, 48, 24);
+        System.out.println(ex1.toUniversalString());
+
+        try{
+            Time1 ex2= new Time1(24, 60, 60);
+            System.out.println(ex2.toUniversalString());
+        }
+        catch (Exception e){
+            System.out.println(e);
+        }
+    }
+    // ! MAIN SECTION
+
 }

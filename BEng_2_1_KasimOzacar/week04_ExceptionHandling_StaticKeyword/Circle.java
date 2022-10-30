@@ -16,4 +16,13 @@ public class Circle {
     public double area(){
         return radius*radius*pi;
     }
+
+    // ! MAIN SECTION
+    public static void main(String[] args){
+        Circle myShape1= new Circle(5, 3.1415926535);
+        Circle myShape2= new Circle(8);
+        System.out.println(myShape1.area());
+        System.out.println(myShape2.area());
+    }
+    // ! MAIN SECTION
 }
