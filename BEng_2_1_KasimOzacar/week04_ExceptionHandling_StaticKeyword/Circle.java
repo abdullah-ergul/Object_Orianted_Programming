@@ -10,7 +10,7 @@ public class Circle {
 
     public Circle(int radius, double pi){
         this.radius= radius;
-        this.pi= pi;
+        Circle.pi= pi;
     }
 
     public double area(){
