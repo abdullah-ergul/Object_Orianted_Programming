@@ -1,5 +1,6 @@
 package BEng_2_1_NehadTARamaha.week04_ExceptionHandling_StaticKeyword;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 
@@ -17,8 +18,11 @@ public class ReadIntager {
             int num= input.nextInt();
             number= num;
         }
-        catch(Exception ex){
-            System.out.println("Your input value isn't an intager number!(" + ex + ")");
+        catch(InputMismatchException e){
+            System.out.println("Your input value isn't an intager number!");
+        }
+        catch(Exception e){
+            System.out.println("Error! " + e.getMessage());
         }
     }
 
