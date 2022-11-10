@@ -34,14 +34,6 @@ public class ReadIntager {
     public static void main(String[] args){
         ReadIntager example= new ReadIntager();
         System.out.println(example.getNumber());
-
-        // try{
-        //     ReadIntager example= new ReadIntager(number);
-        //     System.out.println(example.getNumber());
-        // }
-        // catch(InputMismatchException ex){
-        //     System.out.println(ex);
-        // }
     }
     // ! MAIN SECTION
 

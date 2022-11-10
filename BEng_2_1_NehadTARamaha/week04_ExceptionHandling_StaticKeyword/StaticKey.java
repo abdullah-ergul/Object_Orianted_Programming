@@ -1,4 +1,4 @@
-package BEng_2_1_NehadTARamaha.week05_NestedClasses_EnumTypes_DeeperClasses;
+package BEng_2_1_NehadTARamaha.week04_ExceptionHandling_StaticKeyword;
 
 public class StaticKey {
     public int num= 10;
