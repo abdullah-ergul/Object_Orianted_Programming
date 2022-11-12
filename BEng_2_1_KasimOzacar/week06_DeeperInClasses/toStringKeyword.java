@@ -1,4 +1,4 @@
-package BEng_2_1_KasimOzacar.week06;
+package BEng_2_1_KasimOzacar.week06_DeeperInClasses;
 
 public class toStringKeyword {
     int id;
