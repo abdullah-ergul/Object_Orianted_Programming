@@ -14,7 +14,10 @@ public class Game {
     void start(){
         while(!isGameOver){
             gamer1.move();
-            gamer2.move();
+            if(Game.isGameOver)
+                return;
+            // gamer2.move();  // * Manuel
+            gamer2.autoMove();  // * Random
             processMoves();
             displayScores();
         }
@@ -39,9 +42,7 @@ public class Game {
     }
 
     void displayScores(){
-        System.out.println(gamer1.name +" wins: "+ gamer1.numberOfWins);
-        System.out.println(gamer2.name +" wins: "+ gamer2.numberOfWins);
-        System.out.println("number of trials: "+Gamer.numberOfTrials);
-        System.out.println("number of draws: "+Gamer.numberOfDraws);
+        System.out.println(gamer1.name +" wins: "+ gamer1.numberOfWins+" | number of trials: "+Gamer.numberOfTrials+" | number of draws: "+Gamer.numberOfDraws);
+        System.out.println(gamer2.name +" wins: "+ gamer2.numberOfWins+" | number of trials: "+Gamer.numberOfTrials+" | number of draws: "+Gamer.numberOfDraws+"\n");
     }
 }
