@@ -27,7 +27,7 @@ class Zoo{
         this.animals= animals;
     }
 
-    void printAnimal(){
+    public void printAnimals(){
         int i=0;
         for(Animal a:animals){
             i++;
@@ -46,6 +46,6 @@ public class MainClassQ1{
         Animal[] animals= {a1,a2,a3,a4};
         Zoo myZoo= new Zoo(animals);
 
-        myZoo.printAnimal();
+        myZoo.printAnimals();
     }
 }
