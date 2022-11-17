@@ -1,4 +1,4 @@
-package BEng_2_1_KasimOzacar.week06_DeeperInClasses.Rock_Scissor_Paper;
+package BEng_2_1_KasimOzacar.week07_Examles.Rock_Scissor_Paper;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -18,7 +18,7 @@ public class Gamer {
     static int numberOfTrials;
     static  int numberOfDraws;
     HandSign handSign;
-    String decision;
+    char decision;
 
     Gamer(String name) {
         this.name = name;
@@ -37,20 +37,20 @@ public class Gamer {
 
         do{
             isInputInvalid= false;
-            decision = userInput.next();
+            decision = userInput.next().toLowerCase().charAt(0);
 
             switch (decision){
 
-                case "q":
+                case 'q':
                     Game.isGameOver=true;
                     break;
-                case "r":
+                case 'r':
                     this.handSign =HandSign.ROCK;
                     break;
-                case "s":
+                case 's':
                     this.handSign =HandSign.SCISSOR;
                     break;
-                case "p":
+                case 'p':
                     this.handSign =HandSign.PAPER;
                     break;
                 default:

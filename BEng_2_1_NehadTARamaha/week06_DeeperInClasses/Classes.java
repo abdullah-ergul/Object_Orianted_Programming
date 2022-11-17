@@ -1,4 +1,4 @@
-package BEng_2_1_NehadTARamaha.week05_NestedClasses_EnumTypes_DeeperClasses;
+package BEng_2_1_NehadTARamaha.week06_DeeperInClasses;
 
 
 enum MyBranch{

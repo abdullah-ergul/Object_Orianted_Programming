@@ -1,4 +1,4 @@
-package BEng_2_1_KasimOzacar.week06_DeeperInClasses.Rock_Scissor_Paper;
+package BEng_2_1_KasimOzacar.week07_Examles.Rock_Scissor_Paper;
 
 
 public class Game {
@@ -25,7 +25,7 @@ public class Game {
 
     void processMoves(){
 
-        if (gamer1 == null || gamer2 == null || isGameOver==true)
+        if (gamer1==null || gamer2==null || isGameOver==true)
             return;
         else if(gamer1.handSign == gamer2.handSign)
             Gamer.numberOfDraws++;
@@ -42,7 +42,7 @@ public class Game {
     }
 
     void displayScores(){
-        System.out.println(gamer1.name +" wins: "+ gamer1.numberOfWins+" | number of trials: "+Gamer.numberOfTrials+" | number of draws: "+Gamer.numberOfDraws);
-        System.out.println(gamer2.name +" wins: "+ gamer2.numberOfWins+" | number of trials: "+Gamer.numberOfTrials+" | number of draws: "+Gamer.numberOfDraws+"\n");
+        System.out.println(gamer1.name +" wins: "+ gamer1.numberOfWins+" | number of draws: "+Gamer.numberOfDraws+" | number of trials: "+Gamer.numberOfTrials);
+        System.out.println(gamer2.name +" wins: "+ gamer2.numberOfWins+" | number of draws: "+Gamer.numberOfDraws+" | number of trials: "+Gamer.numberOfTrials+"\n");
     }
 }

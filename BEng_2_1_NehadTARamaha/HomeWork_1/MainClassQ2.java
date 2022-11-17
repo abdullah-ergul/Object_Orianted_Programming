@@ -1,4 +1,4 @@
-package BEng_2_1_NehadTARamaha.HomeWork_1;
+package BEng_2_1_NehadTARamaha.Homework_1;
 
 class Student{
     public int midterm;
