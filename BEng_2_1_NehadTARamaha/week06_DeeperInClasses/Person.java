@@ -29,7 +29,7 @@ public class Person {
     // ! MAIN SECTION
     public static void main(String[] args){
         Person p1= new Person(11, "Abdullah", "Ergül", 20);
-        Person p2= new Person("Zeynep", "Altunel");
+        Person p2= new Person("Emre", "Ercan");
         Person p3= new Person(13);
 
         System.out.println(p1);
