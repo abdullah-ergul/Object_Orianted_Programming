@@ -115,7 +115,7 @@ class Movie extends Material {
 
     @Override
     public void showDetail() {
-        System.out.println(id + " " + name + " " + scores + " " + release_year + " " + price + " " + category + " " + type + " " + director);
+        System.out.println(id + " - " + name + " - " + scores + " - " + release_year + " - " + price + " - " + category + " - " + type + " - " + director);
     }
 
     public void addScore(int score) {
@@ -156,8 +156,12 @@ class Netflix {
             System.out.println("Enter Username: "); uNameIn = input.next();
             System.out.println("Enter Password: "); pswIn = input.next();
 
-            if(Objects.equals(uName, uNameIn) && Objects.equals(psw, pswIn))
+            if(Objects.equals(uName, uNameIn) && Objects.equals(psw, pswIn)) {
                 isLogin = true;
+                break;
+            }
+            else
+                System.out.println("Username or Password is Incorrect!\nPlease try again.\n");
             
             due--;
         }
@@ -226,8 +230,10 @@ class Netflix {
         for (Material m: materials) {
             cId = m.category.id;
             if(cId == categortId) {
-                if(m.price > maxPrice)
+                if(m.price > maxPrice) {
                     maxPrice = m.price;
+                    max = (Movie)m;
+                }
             }
             
             iterator.next();
