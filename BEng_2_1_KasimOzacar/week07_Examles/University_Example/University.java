@@ -1,7 +1,7 @@
 package BEng_2_1_KasimOzacar.week07_Examles.University_Example;
 
 
-public class Main {
+public class University {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
