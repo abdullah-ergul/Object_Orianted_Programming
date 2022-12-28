@@ -1,3 +1,13 @@
+/**
+ * @file Question.java
+ * @author Abdullah Ergul (abdullahergul23@gmail.com)
+ * @brief 
+ * @version 0.1
+ * @date 23-12-2022
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 package BEng_2_1_KasimOzacar.Assigment;
 
 import java.util.ArrayList;

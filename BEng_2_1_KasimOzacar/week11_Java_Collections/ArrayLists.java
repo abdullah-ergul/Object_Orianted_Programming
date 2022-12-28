@@ -22,6 +22,7 @@ class Item {
 
 
 public class ArrayLists {
+    // ! MAIN SECTION
     public static void main(String[] args) {
         // Collection collection = new ArrayList();
         Collection<Item> collection = new ArrayList<>();
@@ -44,4 +45,5 @@ public class ArrayLists {
             iterator.remove();
         }
     }
+    // ! MAIN SECTION
 }
