@@ -1,4 +1,4 @@
-package BEng_2_1_KasimOzacar.week11_Java_Collections;
+package BEng_2_1_NehadTARamaha.week11_Java_Collections;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -21,7 +21,7 @@ class Item {
 }
 
 
-public class ArrayLists {
+public class ArrLists {
     // ! MAIN SECTION
     public static void main(String[] args) {
         // Collection collection = new ArrayList();
