@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 
-public class ArrLists {
+public class Lists {
     // ! MAIN SECTION
     public static void main(String[] args) {
         List<String> arrList = new ArrayList<>();
