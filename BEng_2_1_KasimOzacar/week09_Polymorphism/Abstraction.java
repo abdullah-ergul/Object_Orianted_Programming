@@ -1,14 +1,14 @@
 package BEng_2_1_KasimOzacar.week09_Polymorphism;
 
 
-abstract class Animal {
+abstract class AnimalAb {
     protected  String name;
     protected int age;
 
     public abstract void eat();  // Abstract method: Method with no body, just header.
 }
 
-class Dog extends Animal {
+class DogA extends AnimalAb {
     public String breed;
 
     public void bark() {
@@ -21,7 +21,7 @@ class Dog extends Animal {
     }
 }
 
-class Cat extends Animal {
+class CatA extends AnimalAb {
     public String color;
 
     public void meaw() {
@@ -34,7 +34,7 @@ class Cat extends Animal {
     }
 }
 
-class Horse extends Animal {
+class HorseA extends AnimalAb {
     public int speed;
 
     public void kick() {
@@ -50,13 +50,13 @@ class Horse extends Animal {
 public class Abstraction {
     // ! MAIN SECTION
     public static void main(String[] args) {
-        Animal cat= new Cat();
-        Animal dog= new Dog();
-        Animal horse= new Horse();
+        AnimalAb cat= new CatA();
+        AnimalAb dog= new DogA();
+        AnimalAb horse= new HorseA();
 
-        Animal[] animals= new Animal[]{cat, dog, horse};
+        AnimalAb[] animals= new AnimalAb[]{cat, dog, horse};
 
-        for(Animal a: animals) {
+        for(AnimalAb a: animals) {
             a.eat();
         }
     }

@@ -1,4 +1,4 @@
-package BEng_2_1_KasimOzacar.week12_Collections_MapSet_ComparableComparator;
+package BEng_2_1_KasimOzacar.week12_Java_Collections_SetMap_Compare;
 
 import java.util.ArrayList;
 import java.util.Collections;

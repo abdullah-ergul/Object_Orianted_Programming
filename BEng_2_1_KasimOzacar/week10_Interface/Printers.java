@@ -42,7 +42,10 @@ class CanonProfessional extends Printer implements ColorPrintBehaviour, FaxBehav
 }
 
 class CanonBasic extends Printer {
-    
+    @Override
+    public void print() {
+        System.out.println("Cannon Basic Printing!");
+    }
 }
 
 class CannonOffice extends Printer implements FaxBehaviour, ScanBehaviour {
