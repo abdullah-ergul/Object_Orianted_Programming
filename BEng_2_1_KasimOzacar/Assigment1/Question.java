@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2022
  * 
  */
-package BEng_2_1_KasimOzacar.Assigment;
+package BEng_2_1_KasimOzacar.Assigment1;
 
 import java.util.ArrayList;
 import java.util.Objects;
