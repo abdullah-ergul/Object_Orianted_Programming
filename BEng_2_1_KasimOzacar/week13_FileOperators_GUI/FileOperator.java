@@ -54,7 +54,7 @@ class Engineer implements Serializable{
 }
 
 class SaveLoadManager {
-    static String filePath= "file.txt";
+    static String filePath= "C:\\Users\\Abdullah\\OneDrive\\Abdullah\\Coding\\Object_Orianted_Programming\\BEng_2_1_KasimOzacar\\week13_FileOperators_GUI\\file.txt";
 
     static void save(Engineer engineer) throws Exception {
         FileOutputStream fileOutputStream = new FileOutputStream(filePath);
