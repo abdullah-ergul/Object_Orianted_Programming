@@ -1,4 +1,4 @@
-package BEng_2_1_NehadTARamaha.Excercises.Exam_21_22;
+package BEng_2_1_NehadTARamaha.Excercises;
 
 
 class NFT{
@@ -24,7 +24,7 @@ class NFT{
     }
 }
 
-public class Q3 {
+public class Midterm_21_22_Q3 {
     public static void main(String[] args) {
         NFT n1= new NFT();
         NFT n2= new NFT();

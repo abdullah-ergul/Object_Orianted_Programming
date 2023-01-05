@@ -1,4 +1,4 @@
-package BEng_2_1_NehadTARamaha.Excercises.Exam_21_22;
+package BEng_2_1_NehadTARamaha.Excercises;
 
 
 class Car{
@@ -53,7 +53,7 @@ class Garage{
     }
 }
 
-public class Q2{
+public class Midterm_21_22_Q2{
     public static void main(String[] args){
         Car c1= new Car(11, 2002);
         Car c2= new Car(12, 2018);

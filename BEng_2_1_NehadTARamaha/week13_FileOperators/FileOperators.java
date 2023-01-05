@@ -10,7 +10,7 @@ import java.io.Serializable;
 public class FileOperators {
     // ! MAIN SECTION
     public static void main(String[] args) {
-        Student s1=new Student(100,"omer",75,80);
+        Student s1=new Student(100,"Ali",40,60);
 
         try {
             FileManager.saveToFile(s1, "C:\\Users\\Abdullah\\OneDrive\\Abdullah\\Coding\\Object_Orianted_Programming\\BEng_2_1_NehadTARamaha\\week13_FileOperators\\MyFile2.txt");
@@ -39,7 +39,7 @@ class Student implements Serializable{
 
     @Override
     public String toString() {
-        return "Id: "+id+" Name:"+name+" midTerm: "+midTerm+" finalExam: "+finalExam;
+        return "Id: " + id + " Name: " + name + " midTerm: " + midTerm + " finalExam: " + finalExam;
     } 
 }
 
